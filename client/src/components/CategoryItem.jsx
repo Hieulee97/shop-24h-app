@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { mobile } from "../responsive";
+import { mobile, tablet } from "../responsive";
 
 const Container = styled.div`
   flex: 1;
@@ -30,6 +30,8 @@ const Info = styled.div`
 const Title = styled.h1`
     color:white;
     margin-bottom: 20px;
+    text-align: center;
+    ${tablet({ fontSize: "24px" })};
 `;
 
 const Button = styled.button`

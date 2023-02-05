@@ -2,7 +2,7 @@ import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from 'react'
 import styled from 'styled-components'
-import { mobile } from "../responsive";
+import { mobile, tablet } from "../responsive";
 
 
 const Container = styled.div`
@@ -59,7 +59,8 @@ const Input = styled.input`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "13px" })};
+  ${mobile({ fontSize: "11px" })};
+  ${tablet({ fontSize: "18px" })};
 `;
 
 const MenuItem = styled.div`
@@ -67,6 +68,7 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 25px;
   ${mobile({ fontSize: "8px", marginLeft: "10px" })}
+  ${tablet({ fontSize: "10px" })}
 `;
 
 

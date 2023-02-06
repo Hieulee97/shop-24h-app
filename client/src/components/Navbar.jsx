@@ -59,7 +59,7 @@ const Input = styled.input`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "11px" })};
+  ${mobile({ fontSize: "14px" })};
   ${tablet({ fontSize: "18px" })};
 `;
 
@@ -67,8 +67,8 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
-  ${mobile({ fontSize: "8px", marginLeft: "10px" })}
-  ${tablet({ fontSize: "10px" })}
+  ${mobile({ fontSize: "10px", marginLeft: "10px" })}
+  ${tablet({ fontSize: "12px" })}
 `;
 
 

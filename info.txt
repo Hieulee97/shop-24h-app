@@ -1,0 +1,318 @@
+[
+    {
+        "inStock": true,
+        "_id": "63e38cf8b98d631241405823",
+        "title": "Short Sleeve Heavyweight T-Shirt",
+        "desc": "Meet your new go-to tee. The classic Dickies Short Sleeve Heavyweight T-Shirt is crafted from comfortable cotton that gets even softer with age. Made with heavyweight jersey knit fabric and taped neck and shoulder seams that up the durability factor, this tested and trusted men's t-shirt is one you’ll reach for year after year.",
+        "img": "https://photos.app.goo.gl/rU6bSFhyFQRZcYvJA",
+        "categories": [
+            "tshirt",
+            "man"
+        ],
+        "size": [
+            "M"
+        ],
+        "color": [
+            "green"
+        ],
+        "price": 20,
+        "createdAt": "2023-02-08T11:52:24.149Z",
+        "updatedAt": "2023-02-08T11:52:24.149Z",
+        "__v": 0
+    },
+[
+    {
+        "_id": "63e50281ee194c14a3a2a626",
+        "title": "T-shirt Polo Shirt",
+        "desc": "Get down to business in Dickies Women's Short Sleeve Heavyweight T-Shirt. Built with a solid cotton fabrication, this jersey knit t-shirt is built to stay soft for comfort, while also designed durable enough to take daily wear and tear. The chest pocket adds a touch of utility to the shirt, letting you carry small belongings you'll need throughout your day.",
+        "img": "https://i.ibb.co/pr73JW8/shirt-001.png",
+        "categories": [
+            "shirt",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "black"
+        ],
+        "price": 35,
+        "inStock": true,
+        "createdAt": "2023-02-09T14:26:09.733Z",
+        "updatedAt": "2023-02-09T14:26:09.733Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50a16ee194c14a3a2a628",
+        "title": "Unisex Short Sleeve Dry Shirt",
+        "desc": "Get down to business in Dickies Women's Short Sleeve Heavyweight T-Shirt. Built with a solid cotton fabrication, this jersey knit t-shirt is built to stay soft for comfort, while also designed durable enough to take daily wear and tear. The chest pocket adds a touch of utility to the shirt, letting you carry small belongings you'll need throughout your day.",
+        "img": "https://i.ibb.co/BwVJsy9/shirt-002.png",
+        "categories": [
+            "shirt",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "pink"
+        ],
+        "price": 35,
+        "inStock": true,
+        "createdAt": "2023-02-09T14:58:30.479Z",
+        "updatedAt": "2023-02-09T14:58:30.479Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50b2dee194c14a3a2a62a",
+        "title": "Chucky T Shirt",
+        "desc": "Get down to business in Dickies Women's Short Sleeve Heavyweight T-Shirt. Built with a solid cotton fabrication, this jersey knit t-shirt is built to stay soft for comfort, while also designed durable enough to take daily wear and tear. The chest pocket adds a touch of utility to the shirt, letting you carry small belongings you'll need throughout your day.",
+        "img": "https://i.ibb.co/Y7DTh2s/shirt-003.png",
+        "categories": [
+            "shirt",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "yellow"
+        ],
+        "price": 35,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:03:09.781Z",
+        "updatedAt": "2023-02-09T15:03:09.781Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50c7fee194c14a3a2a630",
+        "title": "Red Polo Shirt",
+        "desc": "Get down to business in Dickies Women's Short Sleeve Heavyweight T-Shirt. Built with a solid cotton fabrication, this jersey knit t-shirt is built to stay soft for comfort, while also designed durable enough to take daily wear and tear. The chest pocket adds a touch of utility to the shirt, letting you carry small belongings you'll need throughout your day.",
+        "img": "https://i.ibb.co/c11kv5K/shirt-004.png",
+        "categories": [
+            "shirt",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "red"
+        ],
+        "price": 40,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:08:47.706Z",
+        "updatedAt": "2023-02-09T15:08:47.706Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50d87ee194c14a3a2a632",
+        "title": "Women's Brown Double-breasted Coat",
+        "desc": "The Women's Port Allen Pullover Fleece is a relaxed fit boxy women’s pullover with a button up high neck. Featuring panelling detailing down the arms, button up quarter placket, chest and front welt pockets. Made of soft polar fleece that is warm and durable. Available in ecru, pink and black. A relaxed piece made for keeping you warm in the colder climate.",
+        "img": "https://i.ibb.co/tXcSwm1/coat-001.png",
+        "categories": [
+            "coat",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "brown"
+        ],
+        "price": 45,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:13:11.491Z",
+        "updatedAt": "2023-02-09T15:13:11.491Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50e2cee194c14a3a2a634",
+        "title": "Black Pullover Hoodie ",
+        "desc": "The Women's Port Allen Pullover Fleece is a relaxed fit boxy women’s pullover with a button up high neck. Featuring panelling detailing down the arms, button up quarter placket, chest and front welt pockets. Made of soft polar fleece that is warm and durable. Available in ecru, pink and black. A relaxed piece made for keeping you warm in the colder climate.",
+        "img": "https://i.ibb.co/wdmfdtw/coat-002.png",
+        "categories": [
+            "coat",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "black"
+        ],
+        "price": 35,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:15:56.305Z",
+        "updatedAt": "2023-02-09T15:15:56.305Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50e6fee194c14a3a2a636",
+        "title": "Hoodie Coat Outerwear Sleeve Pocket",
+        "desc": "The Women's Port Allen Pullover Fleece is a relaxed fit boxy women’s pullover with a button up high neck. Featuring panelling detailing down the arms, button up quarter placket, chest and front welt pockets. Made of soft polar fleece that is warm and durable. Available in ecru, pink and black. A relaxed piece made for keeping you warm in the colder climate.",
+        "img": "https://i.ibb.co/6RkRfHK/coat-003.png",
+        "categories": [
+            "coat",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "pink"
+        ],
+        "price": 40,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:17:03.798Z",
+        "updatedAt": "2023-02-09T15:17:03.798Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e50ed5ee194c14a3a2a638",
+        "title": "Jacket Coat Winter",
+        "desc": "The Women's Port Allen Pullover Fleece is a relaxed fit boxy women’s pullover with a button up high neck. Featuring panelling detailing down the arms, button up quarter placket, chest and front welt pockets. Made of soft polar fleece that is warm and durable. Available in ecru, pink and black. A relaxed piece made for keeping you warm in the colder climate.",
+        "img": "https://i.ibb.co/3mGMkSZ/coat-004.png",
+        "categories": [
+            "coat",
+            "woman"
+        ],
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "pink"
+        ],
+        "price": 42,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:18:45.649Z",
+        "updatedAt": "2023-02-09T15:18:45.649Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e51773ee194c14a3a2a63d",
+        "title": "Overcoat Robe Jacket",
+        "desc": "Discover the most versatile outer layer that delivers on the promise of warmth, durability and protection in Dickies Women’s Duck Hooded Shirt Jacket. Combining the lived-in feel of a hoodie, the strength of a duck canvas work shirt and the security of a jacket, this workday essential will check the box for function and style. Featuring a sturdy brushed duck canvas fabrication and equipped with a cozy jersey lining and hood, you’ll embrace the cold climate with ease in this shirt jacket. You’re covered in wet weather too, as the DWR finish ensures water repellency to keep you dry. Durable metal snap closures at front and a drop tail hem offers even more protection when your work climate calls for it. Maximum utility comes standard with two large chest pockets and two side welt pockets to store all that you carry.",
+        "img": "https://i.ibb.co/qdCnRdP/jacket-001.png",
+        "categories": [
+            "jacket",
+            "woman"
+        ],
+        "size": [
+            "L",
+            "XL"
+        ],
+        "color": [
+            "pink"
+        ],
+        "price": 37,
+        "inStock": true,
+        "createdAt": "2023-02-09T15:55:31.078Z",
+        "updatedAt": "2023-02-09T15:55:31.078Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e5188cee194c14a3a2a63f",
+        "title": "Jacket Hoodie Clothing Overcoat",
+        "desc": "Your new favorite rain or shine layer. Made from water-resistant fabric with two front pockets at the waist and a drawstring hood. Complete with a flattering high-low hem and back flap detail.",
+        "img": "https://i.ibb.co/png1HKJ/jacket-002.png",
+        "categories": [
+            "jacket",
+            "woman"
+        ],
+        "size": [
+            "M",
+            "L"
+        ],
+        "color": [
+            "brown"
+        ],
+        "price": 37,
+        "inStock": true,
+        "createdAt": "2023-02-09T16:00:12.137Z",
+        "updatedAt": "2023-02-09T16:00:12.137Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e519ffee194c14a3a2a641",
+        "title": "Hoodie Polar Fleece Jacket Clothing Zipper",
+        "desc": "Faux Fur Hooded Plaid Parka. The classic parka. Expertly woven in Italy with a detachable faux fur-trimmed hood. Featuring snap tab fastenings at neck and topstitching details. Fully lined with piping.",
+        "img": "https://i.ibb.co/DGm4FzW/jacket-003.png",
+        "categories": [
+            "jacket",
+            "woman"
+        ],
+        "size": [
+            "M",
+            "XL"
+        ],
+        "color": [
+            "red"
+        ],
+        "price": 43,
+        "inStock": true,
+        "createdAt": "2023-02-09T16:06:23.417Z",
+        "updatedAt": "2023-02-09T16:06:23.417Z",
+        "__v": 0
+    },
+    {
+        "_id": "63e51aabee194c14a3a2a643",
+        "title": "Jacket Hoodie Overcoat",
+        "desc": "Packed full for a cosy wear on chilly days, this puffer coat by Hobbs instantly flatters with its longline cut. With a comfortable faux fur hood for when the heavens open, it is fashioned from long-lasting fabric that will see away the cold.",
+        "img": "https://i.ibb.co/Yc2404B/jacket-004.png",
+        "categories": [
+            "jacket",
+            "woman"
+        ],
+        "size": [
+            "X",
+            "XL"
+        ],
+        "color": [
+            "red"
+        ],
+        "price": 43,
+        "inStock": true,
+        "createdAt": "2023-02-09T16:09:15.462Z",
+        "updatedAt": "2023-02-09T16:09:15.462Z",
+        "__v": 0
+    }
+]
+
+
+https://i.ibb.co/tXcSwm1/coat-001.png
+https://i.ibb.co/wdmfdtw/coat-002.png
+https://i.ibb.co/6RkRfHK/coat-003.png
+https://i.ibb.co/3mGMkSZ/coat-004.png
+https://i.ibb.co/qdCnRdP/jacket-001.png
+https://i.ibb.co/png1HKJ/jacket-002.png
+https://i.ibb.co/DGm4FzW/jacket-003.png
+https://i.ibb.co/Yc2404B/jacket-004.png
+https://i.ibb.co/pr73JW8/shirt-001.png
+https://i.ibb.co/BwVJsy9/shirt-002.png
+https://i.ibb.co/Y7DTh2s/shirt-003.png
+https://i.ibb.co/c11kv5K/shirt-004.png

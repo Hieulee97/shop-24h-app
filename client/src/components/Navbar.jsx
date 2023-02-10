@@ -88,7 +88,9 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <Link to="/home" style={{ textDecoration: 'none', color: '#000' }}>
+              <Logo>E-COMMERCE</Logo>
+          </Link>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

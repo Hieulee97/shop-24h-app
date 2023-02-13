@@ -11,12 +11,11 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-// import Success from "./scenes/login/Success";
-// import { useSelector } from "react-redux";
+import Success from "./scenes/login/Success";
+import { useSelector } from "react-redux";
 
 const App = () => {
-  // const user = useSelector((state) => state.user.currentUser);
-  const user = true;
+  const user = useSelector((state) => state.user.currentUser);
   return (
     <Router>
       <Routes>
@@ -27,6 +26,7 @@ const App = () => {
         {/* <Route path="/success">
           <Success />
         </Route> */}
+        <Route path="/success" element={<Success />}/>
         <Route exact path="/login" element={ user ? (<Navigate replace to={"/home"}/>)  : (<Login />)}/>
         <Route exact path="/register" element={ user ? (<Navigate replace to={"/home"}/>) : (<Register/>) }/>
       </Routes>

@@ -67,6 +67,7 @@ const Logo = styled.h1`
 
 const MenuItem = styled.div`
   font-size: 14px;
+  text-decoration: none;
   cursor: pointer;
   margin-left: 25px;
   ${mobile({ fontSize: "10px", marginLeft: "10px" })}
@@ -93,8 +94,12 @@ const Navbar = () => {
           </Link>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
+          <Link to="/login" style={{ textDecoration: 'none', color: '#000' }}>
+            <MenuItem>REGISTER</MenuItem>
+          </Link>
+          <Link to="/register" style={{ textDecoration: 'none', color: '#000' }}>
           <MenuItem>SIGN IN</MenuItem>
+          </Link>
           <Link to="/cart">
           <MenuItem>
             <Badge badgeContent={quantity} color="primary">

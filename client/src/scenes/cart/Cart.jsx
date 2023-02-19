@@ -169,19 +169,21 @@ const Cart = () => {
   };
 
   useEffect(() => {
+    
     const makeRequest = async () => {
       try {
         const res = await userRequest.post("/checkout/payment", {
           tokenId: stripeToken.id,
           amount: 500,
         });
-        navigate("/success", {
-          stripeData: res.data,
-          products: cart, });
-      } catch {}
+        console.log(res.data)
+        navigate("/success", { state: { stripeData: res.data, products: cart} });
+      } catch {
+
+      }
     };
     stripeToken && makeRequest();
-  }, [stripeToken, cart.total, navigate]);
+  }, [stripeToken, cart, navigate]);
   return (
     <Container>
       <Navbar />

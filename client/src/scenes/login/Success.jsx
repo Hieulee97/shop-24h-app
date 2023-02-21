@@ -6,12 +6,14 @@ import { userRequest } from "../../requestMethods";
 const Success = () => {
   const location = useLocation();
   //in Cart.jsx I sent data and cart. Please check that page for the changes.(in video it's only data)
-  const data = location.state.data;
-  const cart = location.state.cart;
+  const data = location.state.stripeData;
+  const cart = location.state.products;
   const currentUser = useSelector((state) => state.user.currentUser);
   const [orderId, setOrderId] = useState(null);
+  // const [stripeData, setstripeData] = useState(null);
 
   useEffect(() => {
+
     const createOrder = async () => {
       try {
         const res = await userRequest.post("/orders", {
@@ -21,14 +23,18 @@ const Success = () => {
             quantity: item._quantity,
           })),
           amount: cart.total,
-          address: data.billing_details.address,
+          address: data.billing_details.address
         });
         setOrderId(res.data._id);
+        
       } catch {}
     };
     data && createOrder();
   }, [cart, data, currentUser]);
-
+  console.log(orderId);
+  console.log(data);
+  console.log(cart);
+  console.log(currentUser);
   return (
     <div
       style={{
@@ -39,9 +45,8 @@ const Success = () => {
         justifyContent: "center",
       }}
     >
-      {orderId
-        ? `Order has been created successfully. Your order number is ${orderId}`
-        : `Successfull. Your order is being prepared...`}
+      Order has been created successfully. Your order number is ${orderId}
+        
       <button style={{ padding: 10, marginTop: 20 }}>Go to Homepage</button>
     </div>
   );

@@ -32,7 +32,14 @@ router.post('/login', async (req, res) => {
             }
         );
 
-        !user && res.status(401).json("Wrong User Name");
+        // if(!user){ res.status(401).json("Wrong User Name");
+        //   }
+
+        if (!user) {
+          res.status(404).json( "Wrong User Name" );
+          // stop further execution in this callback
+          return;
+        }
 
         const hashedPassword = CryptoJS.AES.decrypt(
             user.password,
@@ -44,8 +51,14 @@ router.post('/login', async (req, res) => {
 
         const inputPassword = req.body.password;
         
-        originalPassword != inputPassword && 
-            res.status(401).json("Wrong Password");
+        // originalPassword != inputPassword && 
+        //     res.status(401).json("");
+
+        if (originalPassword != inputPassword) {
+          res.status(404).json( "Wrong Password" );
+          // stop further execution in this callback
+          return;
+        }
 
         const accessToken = jwt.sign(
         {
